@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+article {
+    color: white;
+    margin-top: 70px;
+}
+
+.quadro {
+    background-color: white;
+    padding: 60px;
+    border-radius: 50px;
+    max-width: 800px;
+    font-size: 150%;
+    opacity: 60%;
+    margin-bottom: 30px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quadro p {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-family: 'Raleway', ui-sans-serif;
+    text-align: justify;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.esquerda h1 {
+    font-family: 'PT Serif', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.esquerda p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+
+#sol {
+    background-color: #ebd657;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 200px 200px 200px 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}

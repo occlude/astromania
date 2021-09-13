@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/astron-boy-video');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Prompt:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-image: linear-gradient(#000000, #000000, #000000, #000000, #000000, #140f1a, #2a1b3d, #3c3358, #434079, #435e80, #668fb0, #6f8594);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    height: 100%;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-image: linear-gradient(#000000, #000000, #000000, #000000, #000000, #140f1a, #2a1b3d, #3c3358, #434079, #435e80, #668fb0, #6f8594);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background: rgba(90, 90, 90);
+}
+
+.header-pagina-inicial {
+    background-color: black;
+    padding-bottom: 15px;
+}
+
+.header-pagina-inicial h1 {
+    font-family: 'Astron Boy Video', sans-serif;
+    font-weight: 500;
+    padding-right: 200px;
+    font-size: 80px;
+}
+
+.header-pagina-inicial h2 {
+    font-family: "Inter", ui-sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    width: calc(100% - 205px);
+}
+
+.text-top {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.logo-top {
+    float: left;
+    padding-top: 15px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.corpo-pagina-inicial {
+    color: white;
+    padding-top: 45px;
+}
+
+.corpo-pagina-inicial p {
+    font-family: "Raleway", ui-sans-serif;
+}
+
+.quadros {
+    background-color: white;
+    padding: 60px;
+    border-radius: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    opacity: 60%;
+    margin-bottom: 30px;
+}
+
+.quadros p {
+    color: black;
+    text-align: justify;
+    opacity: 100%;
+}
+
+.quadros ul {
+    font-family: "Prompt", ui-sans-serif;
+    color: black;
+    text-align: justify;
+    opacity: 100%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sobre {
+    text-align: center;
+    font-family: "Libre Baskerville", ui-sans-serif;
+    font-size: 23px;
+    padding-top: 40px;
+    margin-bottom: 90px;
+}
+
+.sobre :link {
+    text-decoration: none;
+}
+
+.sobre :visited {
+    text-decoration: none;
+    color: white;
+}
+
+.sobre :hover {
+    text-decoration: none;
+    color: white;
+}
+
+.sobre :active {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul {
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: 100;
+    list-style-type: none;
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 55px;
+    margin-left: 70px;
+    padding-right: 50px;
+}
+
+.menu li :link {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li :visited {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.menu li :active {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a {
+    font-size: 75px;
+}

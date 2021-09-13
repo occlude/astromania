@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+section {
+    padding-top: 70px;
+    color: white;
+}
+
+.direita img {
+    order: 2;
+}
+
+.direita {
+    padding-top: 50px;
+}
+
+.esquerda img {
+    order: 0;
+}
+
+.esquerda {
+    padding-top: 50px;
+}
+
+.textosdireita {
+    text-align: justify;
+    margin-left: 70px;
+}
+
+.textosesquerda {
+    text-align: justify;
+    margin-right: 70px;
+}
+
+.esquerda,
+.direita {
+    display: flex;
+    align-items: center;
+}
+
+.esquerda h1,
+.direita h1 {
+    font-family: 'PT Serif', sans-serif;
+    font-size: 30px;
+}
+
+.esquerda p,
+.direita p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+
+#mercurio {
+    background-color: #e1b734;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 50px 200px 50px;
+    margin-left: 800px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+#venus {
+    background-color: #b96120;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 200px 50px 200px;
+    margin-right: 800px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+#terra {
+    background-color: #2964a2;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 50px 200px 50px;
+    margin-left: 800px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+#marte {
+    background-color: #ad2212;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 200px 50px 200px;
+    margin-right: 800px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+#jupiter {
+    background-color: #eca644;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 50px 200px 50px;
+    margin-left: 800px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+#saturno {
+    background-color: #ba7620;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 200px 50px 200px;
+    margin-right: 800px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+#urano {
+    background-color: #59f2ef;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 50px 200px 50px;
+    margin-left: 800px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+#netuno {
+    background-color: #2456af;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 200px 50px 200px;
+    margin-right: 800px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+#plutao {
+    background-color: #ec554a;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 50px 200px 50px;
+    margin-left: 800px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.textosplutao strong {
+    font-size: 45px;
+}
+
+.textosplutao {
+    text-align: justify;
+    margin-left: 70px;
+}

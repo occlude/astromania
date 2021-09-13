@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-image: linear-gradient(#000000, #000000, #000000, #000000, #000000, #140f1a, #2a1b3d, #3c3358, #434079, #435e80, #668fb0, #6f8594);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    height: 100%;
+}
+
+main {
+    font-family: 'MontSerrat' sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-image: linear-gradient(#000000, #000000, #000000, #000000, #000000, #140f1a, #2a1b3d, #3c3358, #434079, #435e80, #668fb0, #6f8594);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background: rgba(90, 90, 90);
+}
+
+.ze {
+    float: right;
+    margin-top: -20px;
+    padding-right: 10px;
+}
+
+#sobre {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+div#container {
+    width: calc(90% - 20px);
+    left: 5%;
+    padding: 10px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.amigos {
+    width: 90%;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 150px !important;
+    height: 150px !important;
+    background: rgb(56, 56, 56);
+    border-radius: 300px;
+    position: relative;
+    margin-right: 20px;
+    background-size: 100%;
+    border: 5px solid #ffffff;
+}
+
+.desc_container {
+    width: calc(100% - 300px);
+}
+
+.name {
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #0000003b;
+}
+
+.description {
+    color: #e6e6e6;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    max-height: 130px;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro' sans-serif;
+    color: white;
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+nav {
+    padding-left: 75px;
+    margin-bottom: 80px;
+}
+
+li {
+    font-family: 'Kaisei HarunoUmi' sans-serif;
+    list-style: none;
+    font-size: 24px;
+    line-height: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+ul {
+    padding-top: 50px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
