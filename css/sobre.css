@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/astron-boy-video');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +54,7 @@ main {
 
 #sobre {
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Astron Boy Video', sans-serif;
     font-weight: 500;
     font-size: 64px;
     margin-top: 30px;
@@ -95,22 +98,24 @@ div#container {
 }
 
 .name {
-    font-size: 30px;
+    font-size: 25.5px;
+    font-family: 'Azeret Mono', sans-serif;
     color: #ffffff;
     text-shadow: 0px 0px 20px #0000003b;
 }
 
 .description {
     color: #e6e6e6;
+    font-family: 'Open Sans Condensed', sans-serif;
     word-break: break-all;
     text-overflow: ellipsis;
     overflow: hidden !important;
     max-height: 130px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h2 {
-    font-family: 'Source Sans Pro' sans-serif;
+    font-family: 'Astron Boy Video', sans-serif;
     color: white;
     font-size: 60px;
     padding-left: 50px;
@@ -135,6 +140,7 @@ ul {
 
 a:link,
 a:visited {
+    font-family: 'Open Sans Condensed', sans-serif;;
     text-decoration: none;
     color: white;
 }

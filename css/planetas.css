@@ -6,19 +6,22 @@ section {
 }
 
 .direita img {
-    order: 2;
+    float: right;
+    shape-outside: circle(50%);
 }
 
 .direita {
-    padding-top: 50px;
+    margin-left: auto;
 }
 
 .esquerda img {
-    order: 0;
+    float: left;
+    shape-outside: circle(50%);
 }
 
 .esquerda {
     padding-top: 50px;
+    margin-right: auto;
 }
 
 .textosdireita {
@@ -33,8 +36,8 @@ section {
 
 .esquerda,
 .direita {
-    display: flex;
     align-items: center;
+    max-width: 700px;
 }
 
 .esquerda h1,
@@ -55,9 +58,7 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 50px 200px 50px;
-    margin-left: 800px;
     margin-top: 100px;
-    margin-right: 60px;
     margin-bottom: 50px;
     text-decoration: none;
 }
@@ -68,7 +69,6 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 200px 50px 200px;
-    margin-right: 800px;
     margin-top: 100px;
     margin-left: 60px;
     margin-bottom: 50px;
@@ -81,7 +81,6 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 50px 200px 50px;
-    margin-left: 800px;
     margin-top: 100px;
     margin-right: 60px;
     margin-bottom: 50px;
@@ -94,7 +93,6 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 200px 50px 200px;
-    margin-right: 800px;
     margin-top: 100px;
     margin-left: 60px;
     margin-bottom: 50px;
@@ -107,7 +105,6 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 50px 200px 50px;
-    margin-left: 800px;
     margin-top: 100px;
     margin-right: 60px;
     margin-bottom: 50px;
@@ -120,7 +117,6 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 200px 50px 200px;
-    margin-right: 800px;
     margin-top: 100px;
     margin-left: 60px;
     margin-bottom: 50px;
@@ -133,7 +129,6 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 50px 200px 50px;
-    margin-left: 800px;
     margin-top: 100px;
     margin-right: 60px;
     margin-bottom: 50px;
@@ -146,7 +141,6 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 200px 50px 200px;
-    margin-right: 800px;
     margin-top: 100px;
     margin-left: 60px;
     margin-bottom: 50px;
@@ -159,7 +153,6 @@ section {
     box-sizing: content-box;
     padding: 50px;
     border-radius: 50px 200px 50px;
-    margin-left: 800px;
     margin-top: 100px;
     margin-right: 60px;
     margin-bottom: 50px;
